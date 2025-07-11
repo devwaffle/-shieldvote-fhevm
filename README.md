@@ -1,12 +1,16 @@
-# -shieldvote-fhevm
+# ShieldVote 🛡️
 
-💡 Tech Stack:
-FHEVM by Zama
+A confidential on-chain voting dApp built using Zama's FHEVM.
 
-Solidity with boolFHE for vote encryption
+## Features
+- Encrypted Yes/No voting
+- On-chain vote tally with TFHE
+- Frontend to cast & view encrypted votes
 
-Next.js frontend
+## Structure
+- `contracts/ShieldVote.sol`
+- `frontend/`
+- `scripts/deploy.js`
 
-Ethers.js for wallet interaction
-
-Hardhat for deployment
+## How to Run
+See instructions in the full documentation (coming soon).
